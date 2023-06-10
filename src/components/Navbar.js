@@ -10,7 +10,7 @@ export function Navbar() {
   const { tasks } = useTasks();
 
   return (
-    <header className="flex items-center bg-gray-800 px-28 py-3">
+    <header className="flex items-center bg-gray-800 px-3 py-3">
       <Link href="/">
         <h1 className="font-black text-3xl text-white">Task App</h1>
       </Link>

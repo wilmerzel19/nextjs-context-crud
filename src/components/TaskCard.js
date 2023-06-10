@@ -9,7 +9,7 @@ export const TaskCard = ({ task }) => {
 
   return (
     <div
-      className="bg-gray-700 hover:bg-gray-600 cursor-pointer px-20 py-5 m-2 flex justify-between"
+      className="bg-gray-700 hover:bg-gray-600 cursor-pointer px-20 py-5 m-2  flex justify-between"
       onClick={() => router.push(`/edit/${task.id}`)}
     >
       <div>

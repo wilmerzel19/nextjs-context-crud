@@ -12,10 +12,10 @@ function Home() {
       {tasks.length === 0 ? (
         <div className="block">
           <h2 className="text-2xl">There are no tasks</h2>
-          <VscTasklist size="8rem" />
+          <VscTasklist size="10rem" />
         </div>
       ) : (
-        <div className="w-7/10">
+        <div className="w-12/12">
           {tasks.map((task, i) => (
             <TaskCard task={task} key={i} />
           ))}

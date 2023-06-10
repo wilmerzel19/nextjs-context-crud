@@ -39,12 +39,12 @@ const TaskFormPage = ({ params }) => {
   return (
     <div className="flex justify-center items-center h-full">
       <form className="bg-gray-700 p-10" onSubmit={onSubmit}>
-        <h1 className="text-3xl mb-3">
+        <h1 className="text-3xl">
           {params.id ? "Edit Task" : "New Task"}
         </h1>
         <input
           type="text"
-          className="bg-gray-800 focus:text-gray-100 focus:outline-none w-full py-3 px-4 mb-2 block"
+          className="bg-gray-800 focus:text-gray-100 focus:outline-none py-1 px-1 mb-2 block"
           placeholder="Write a title"
           autoFocus
           name="title"
